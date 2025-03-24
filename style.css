@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    display: flex;
+  }
+  .main {
+
+    margin: auto;
+    padding: auto;
+    margin-top: 10%;
+    color: aqua;
+  }
+  @media  (max-width:360px){
+    
+  .main {
+
+    margin: auto;
+    padding: auto;
+    margin-top: 60%;
+    color: aqua;
+  }
+  }
+  #timeDiv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 4px white solid;
+      width: 600px;
+      height: 100px;
+      background-color: grey;
+  }
+  #monthDiv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    border: 4px white solid;
+    width: 600px;
+    background-color: rgb(16, 11, 11);
+
+    height: 200px;
+  }
+  .hour{
+    border: 1px white solid;
+  font-size: 70px;
+  margin: 10px;
+  }
+  .min{
+      border: 1px white solid;
+      font-size: 70px;
+      margin: 10px;
+      
+  }
+  .month{
+      border: 1px white solid;
+      font-size: 70px;
+      margin: 10px;
+  }
+  .date{
+      border: 1px white solid;
+      font-size: 70px;
+      margin: 10px;
+  }
+  .year{
+      border: 1px white solid;
+      font-size: 70px;
+      margin: 10px;
+  }
+  .sec{
+    border: 1px white solid;
+    font-size: 70px;
+    margin: 10px;
+  }
+  span{
+      font-size: 50px;
+  }
