@@ -18,7 +18,65 @@ body {
     margin-top: 60%;
     color: aqua;
   }
+  #timeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px white solid;
+  width: 10%;
+    
+    height: 100px;
+    background-color: grey;
+}
+#monthDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  border: 4px white solid;
+  width: 10%;
+  background-color: rgb(16, 11, 11);
+
+  height: 200px;
+}
+.hour{
+  border: 1px white solid;
+font-size: 30px;
+margin: 5px;
+}
+.min{
+    border: 1px white solid;
+    font-size: 50px;
+    margin: 5px;
+    
+}
+.month{
+    border: 1px white solid;
+    font-size: 50px;
+    margin: 5px;
+}
+.date{
+    border: 1px white solid;
+    font-size: 50px;
+    margin: 50px;
+}
+.year{
+    border: 1px white solid;
+    font-size: 50px;
+    margin: 7px;
+}
+.sec{
+  border: 1px white solid;
+  font-size: 50px;
+  margin: 7px;
+}
+span{
+    font-size: 30px;
+}
   }
+
+
+
+
   #timeDiv {
       display: flex;
       justify-content: center;
